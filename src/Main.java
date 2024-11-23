@@ -52,8 +52,19 @@ public class Main {
         int amount = 29_000;
         int sum = 0;
         for (int month = 1; month <= 12; month++) {
-            sum+=amount;
+            sum += amount;
             System.out.println("Месяц " + month + ", сумма накоплений равна " + sum + " рублей");
+        }
+
+        //task9
+        System.out.println("Task 9");
+        sum = 0;
+        double percent = 1D / 100;
+        for (int month = 1; month <= 12; month++) {
+            sum += amount;
+            sum = (int) (sum * (1 + percent));
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + sum + " рублей");
+
         }
     }
 }
