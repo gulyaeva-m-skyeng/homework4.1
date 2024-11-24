@@ -15,7 +15,7 @@ public class Main {
 
 //task3
         System.out.println("Task 3");
-        for (int i = 0; i < 17; i++) {
+        for (int i = 0; i <= 17; i++) {
             if (i % 2 == 0) {
                 System.out.println(i + " ");
             }
